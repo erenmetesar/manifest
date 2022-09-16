@@ -4,7 +4,7 @@
   <!-- Device repos -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="voidui" />
 
   <!-- External repos -->
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="pixel" />
@@ -19,7 +19,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixel" />
 
   <!-- Hardware repos - HALS -->
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel">
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="voidui-caf">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
@@ -61,9 +61,9 @@
   <project path="hardware/qcom-caf/sm8150-common/audio" name="hardware_qcom-caf_sm8150-common_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150-common/display" name="hardware_qcom-caf_sm8150-common_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150-common/media" name="hardware_qcom-caf_sm8150-common_media" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="voidui-caf" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="voidui-caf" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="voidui-caf" />
   <project path="hardware/qcom-caf/sm8250-common/audio" name="hardware_qcom-caf_sm8250-common_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250-common/display" name="hardware_qcom-caf_sm8250-common_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250-common/gps" name="hardware_qcom-caf_sm8250-common_gps" remote="pixel" />
@@ -89,11 +89,10 @@
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="pixel" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="pixel" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="pixel" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="pixel" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="voidui-caf" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="voidui-caf" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixel" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
-  <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="pixel" />
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pixel" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" remote="pixel" />
