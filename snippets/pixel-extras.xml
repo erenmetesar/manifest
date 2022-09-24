@@ -10,6 +10,9 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
 
+  <!-- GameSpace repos -->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voidui" />
+
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="voidui" />
   <project path="vendor/aosp" name="vendor_aosp" remote="voidui" />
