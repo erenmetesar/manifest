@@ -48,6 +48,9 @@
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
 
+  <!-- Theme Icons Overlay -->
+  <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="voidui" />
+
   <!-- Tools Repos -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="pixel" />
 
