@@ -34,6 +34,10 @@
           fetch="https://github.com/VoidUI-Tiramisu-CAF"
           revision="aosp-13" />
 
+  <remote name="voidui-gitlab"
+          fetch="https://gitlab.com/VoidUI"
+          revision="aosp-13" />
+
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
