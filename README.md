@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/VoidUI-Tiramisu/manifest -b aosp-13
+repo init -u https://github.com/erenmetesar/manifest aosp-13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
